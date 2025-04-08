@@ -5,6 +5,8 @@
     ./options.nix
     ./mini.nix
     ./snacks.nix
+    ./modules/plugin/lsp/conform.nix
+    ./modules/plugin/lsp/lsp.nix
   ];
 
   keymaps = [
@@ -27,6 +29,18 @@
     {
       action = "<cmd>bdelete<cr>";
       key = "<leader>bd";
+    }
+  ];
+
+  autoCmd = [
+    {
+      command = "lua vim.lsp.buf.format()";
+      event = [
+        "BufWritePre"
+      ];
+      pattern = [
+        "*"
+      ];
     }
   ];
 }
