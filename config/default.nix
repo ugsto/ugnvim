@@ -1,12 +1,12 @@
 {
   plugins.lazy.enable = true;
   imports = [
-    ./colorscheme.nix
-    ./options.nix
-    ./mini.nix
-    ./snacks.nix
+    ./modules/colorscheme.nix
     ./modules/plugin/lsp/conform.nix
     ./modules/plugin/lsp/lsp.nix
+    ./modules/plugin/mini.nix
+    ./modules/plugin/snacks.nix
+    ./options.nix
   ];
 
   keymaps = [
