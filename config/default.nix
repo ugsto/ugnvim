@@ -4,8 +4,8 @@
     ./modules/colorscheme.nix
     ./modules/plugin/lsp/conform.nix
     ./modules/plugin/lsp/lsp.nix
-    ./modules/plugin/mini.nix
-    ./modules/plugin/snacks.nix
+    ./modules/plugin/utils/mini.nix
+    ./modules/plugin/utils/snacks.nix
     ./options.nix
   ];
 

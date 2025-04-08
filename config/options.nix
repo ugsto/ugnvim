@@ -4,7 +4,11 @@
     relativenumber = true;
 
     termguicolors = true;
-    completeopt = [ "menuone" "noselect" "noinsert" ];
+    completeopt = [
+      "menuone"
+      "noselect"
+      "noinsert"
+    ];
     signcolumn = "yes";
 
     ignorecase = true;
