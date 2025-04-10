@@ -20,14 +20,6 @@
     list = true;
     listchars.__raw = "{ tab = '» ', trail = '·', nbsp = '␣' }";
 
-    clipboard = {
-      providers = {
-        wl-copy.enable = true;
-        xsel.enable = true;
-      };
-      register = "unnamedplus";
-    };
-
     encoding = "utf-8";
     fileencoding = "utf-8";
 
@@ -39,6 +31,14 @@
     ruler = true;
     gdefault = true;
     scrolloff = 5;
+  };
+
+  clipboard = {
+    providers = {
+      wl-copy.enable = true;
+      xsel.enable = true;
+    };
+    register = "unnamedplus";
   };
 
   globals.mapleader = " ";
