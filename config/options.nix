@@ -3,6 +3,11 @@
     number = true;
     relativenumber = true;
 
+    expandtab = true;
+    softtabstop = 2;
+    shiftwidth = 2;
+    tabstop = 2;
+
     termguicolors = true;
     completeopt = [
       "menuone"
