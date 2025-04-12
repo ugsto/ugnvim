@@ -2,6 +2,7 @@
   plugins.lazy.enable = true;
   imports = [
     ./modules/colorscheme.nix
+    ./modules/plugin/ai/avante.nix
     ./modules/plugin/lsp/conform.nix
     ./modules/plugin/lsp/lsp.nix
     ./modules/plugin/lsp/treesitter.nix
