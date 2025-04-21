@@ -19,6 +19,7 @@
         nil_ls.enable = true;
         ts_ls.enable = true;
         marksman.enable = true;
+        ruff.enable = true;
         pyright.enable = true;
         gopls.enable = true;
         terraformls.enable = true;
