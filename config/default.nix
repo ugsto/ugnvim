@@ -5,6 +5,7 @@
     ./modules/plugin/ai/avante.nix
     ./modules/plugin/lsp/conform.nix
     ./modules/plugin/lsp/lsp.nix
+    ./modules/plugin/lsp/rustaceanvim.nix
     ./modules/plugin/lsp/treesitter.nix
     ./modules/plugin/utils/cmp.nix
     ./modules/plugin/utils/gitsigns.nix

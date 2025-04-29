@@ -12,7 +12,13 @@
               vim.schedule(function()
                 vim.snippet.jump(1)
               end)
-            elseif has_words_before() then
+              elseif (function()
+                if vim.bo[0].buftype == 'prompt' then
+                  return false
+                end
+                local line, col = unpack(vim.api.nvim_win_get_cursor(0))
+                return col ~= 0 and vim.api.nvim_buf_get_lines(0, line - 1, line, true)[1]:sub(col, col):match('%s') == nil
+              end)() then
               cmp.complete()
             else
               fallback()
