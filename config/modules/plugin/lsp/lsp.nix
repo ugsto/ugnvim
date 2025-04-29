@@ -26,6 +26,7 @@
         ansiblels.enable = true;
         jsonls.enable = true;
         dockerls.enable = true;
+        clangd.enable = true;
         helm_ls = {
           enable = true;
           extraOptions = {
