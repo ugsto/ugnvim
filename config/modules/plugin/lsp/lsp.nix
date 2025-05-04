@@ -14,6 +14,7 @@
       enable = true;
       inlayHints = true;
       servers = {
+        bashls.enable = true;
         html.enable = true;
         lua_ls.enable = true;
         nil_ls.enable = true;
